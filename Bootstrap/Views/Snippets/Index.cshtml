@@ -26,7 +26,7 @@
             @Html.DisplayFor(modelItem => item.Title)
         </td>
         <td>
-            @Html.Raw(item.Content)
+            <div style="zoom: .5">@Html.Raw(item.Content)</div>
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
